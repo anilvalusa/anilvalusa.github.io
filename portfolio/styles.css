@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box; /* Include padding and borders in element's total width and height */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f4f4f4; /* Light background */
+}
+
+.skills-section {
+    width: 100%; /* Full width of the viewport */
+    padding: 20px; /* Padding around the section */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.skills-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow categories to wrap */
+    justify-content: space-around; /* Space out categories evenly */
+}
+
+.skills-category {
+    flex: 1 1 30%; /* Each category takes up approximately one-third of the row */
+    margin: 10px; /* Margin for spacing */
+    min-width: 250px; /* Minimum width for responsiveness */
+    background: #fafafa; /* Light background for categories */
+    padding: 15px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Shadow for categories */
+}
+
+.progress {
+    margin: 10px 0; /* Margin for each progress bar */
+}
+
+.skill {
+    display: flex; /* Flexbox for skill name and value */
+    justify-content: space-between; /* Space between name and value */
+    align-items: center; /* Center vertically */
+}
+
+.progress-bar-wrap {
+    background: #e0e0e0; /* Background for progress bar */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+.progress-bar {
+    height: 20px; /* Height of the progress bar */
+    border-radius: 5px; /* Round corners */
+    background: #4caf50; /* Green color for filled progress */
+    transition: width 0.5s; /* Smooth transition for width */
+}
