@@ -127,10 +127,7 @@ In addition, I have worked on optimizing operational efficiency by integrating A
 
       </div>
 
-    </section><!-- /Stats Section -->
-
-<!DOCTYPE html>
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -142,7 +139,7 @@ In addition, I have worked on optimizing operational efficiency by integrating A
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #eef2f3; /* Light background for contrast */
+            background-color: #eef2f3;
         }
 
         .skills-section {
@@ -152,8 +149,8 @@ In addition, I have worked on optimizing operational efficiency by integrating A
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             max-width: 1200px;
-            margin: 30px auto; /* Centered section with margin */
-            border: 1px solid #ddd; /* Light border for definition */
+            margin: 30px auto;
+            border: 1px solid #ddd;
         }
 
         h2 {
@@ -216,7 +213,7 @@ In addition, I have worked on optimizing operational efficiency by integrating A
         }
 
         .progress-bar {
-            background: #4caf50; /* Green color for the bar */
+            background: #4caf50;
             height: 100%;
         }
 
@@ -227,125 +224,153 @@ In addition, I have worked on optimizing operational efficiency by integrating A
             font-size: 1.1em;
         }
 
+        .skills-category img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
         @media (max-width: 800px) {
             .skills-category {
-                flex: 1 1 calc(50% - 20px); /* Two columns on medium screens */
+                flex: 1 1 calc(50% - 20px);
             }
         }
 
         @media (max-width: 500px) {
             .skills-category {
-                flex: 1 1 100%; /* Single column on small screens */
+                flex: 1 1 100%;
             }
         }
     </style>
 </head>
 <body>
     <div class="skills-section">
-        <h2><i class="fas fa-star"></i> Skills</h2>
+        <h2><i class="fas fa-star"></i> Technical Skills</h2>
         <div class="skills-container">
 
-            <!-- Languages and Databases -->
+            <!-- Programming Languages -->
             <div class="skills-category">
-                <h3><i class="fas fa-code"></i> Languages and Databases</h3>
-                <div class="progress">
-                    <span class="skill"><span>Python</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 90%;"></div>
-                    </div>
-                    <span class="val">90%</span>
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div>
+                    <img src="assets/img/python-logo.png" alt="Python Logo">
+                    <span>Python</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>HTML5</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 85%;"></div>
-                    </div>
-                    <span class="val">85%</span>
+                <div>
+                    <img src="assets/img/cpp-logo.png" alt="C++ Logo">
+                    <span>C++</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>CSS3</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 85%;"></div>
-                    </div>
-                    <span class="val">85%</span>
+                <div>
+                    <img src="assets/img/swift-logo.png" alt="Swift Logo">
+                    <span>Swift</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>MySQL</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 80%;"></div>
-                    </div>
-                    <span class="val">80%</span>
-                </div>
-                <div class="progress">
-                    <span class="skill"><span>PostgreSQL</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 75%;"></div>
-                    </div>
-                    <span class="val">75%</span>
+                <div>
+                    <img src="assets/img/javascript-logo.png" alt="JavaScript Logo">
+                    <span>JavaScript</span>
                 </div>
             </div>
 
-            <!-- Libraries -->
+            <!-- Machine Learning & AI -->
             <div class="skills-category">
-                <h3><i class="fas fa-book"></i> Libraries</h3>
-                <div class="progress">
-                    <span class="skill"><span>NumPy</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 85%;"></div>
-                    </div>
-                    <span class="val">85%</span>
+                <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+                <div>
+                    <img src="assets/img/tensorflow-logo.png" alt="TensorFlow Logo">
+                    <span>TensorFlow</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>Pandas</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 80%;"></div>
-                    </div>
-                    <span class="val">80%</span>
+                <div>
+                    <img src="assets/img/keras-logo.png" alt="Keras Logo">
+                    <span>Keras</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>OpenCV</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 75%;"></div>
-                    </div>
-                    <span class="val">75%</span>
+                <div>
+                    <img src="assets/img/pytorch-logo.png" alt="PyTorch Logo">
+                    <span>PyTorch</span>
+                </div>
+                <div>
+                    <img src="assets/img/opencv-logo.png" alt="OpenCV Logo">
+                    <span>OpenCV</span>
                 </div>
             </div>
 
-            <!-- Frameworks -->
+            <!-- Cloud Computing & DevOps -->
             <div class="skills-category">
-                <h3><i class="fas fa-cogs"></i> Frameworks</h3>
-                <div class="progress">
-                    <span class="skill"><span>Django</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 70%;"></div>
-                    </div>
-                    <span class="val">70%</span>
+                <h3><i class="fas fa-cloud"></i> Cloud Computing & DevOps</h3>
+                <div>
+                    <img src="assets/img/aws-logo.png" alt="AWS Logo">
+                    <span>AWS</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>Flask</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 75%;"></div>
-                    </div>
-                    <span class="val">75%</span>
+                <div>
+                    <img src="assets/img/gcp-logo.png" alt="GCP Logo">
+                    <span>GCP</span>
+                </div>
+                <div>
+                    <img src="assets/img/docker-logo.png" alt="Docker Logo">
+                    <span>Docker</span>
+                </div>
+                <div>
+                    <img src="assets/img/kubernetes-logo.png" alt="Kubernetes Logo">
+                    <span>Kubernetes</span>
                 </div>
             </div>
 
-            <!-- Other Technologies -->
+            <!-- Cybersecurity & Tools -->
             <div class="skills-category">
-                <h3><i class="fas fa-tools"></i> Other Technologies</h3>
-                <div class="progress">
-                    <span class="skill"><span>AWS</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 75%;"></div>
-                    </div>
-                    <span class="val">75%</span>
+                <h3><i class="fas fa-shield-alt"></i> Cybersecurity & Tools</h3>
+                <div>
+                    <img src="assets/img/metasploit-logo.png" alt="Metasploit Logo">
+                    <span>Metasploit</span>
                 </div>
-                <div class="progress">
-                    <span class="skill"><span>GCP</span></span>
-                    <div class="progress-bar-wrap">
-                        <div class="progress-bar" style="width: 70%;"></div>
-                    </div>
-                    <span class="val">70%</span>
+                <div>
+                    <img src="assets/img/wireshark-logo.png" alt="Wireshark Logo">
+                    <span>Wireshark</span>
+                </div>
+                <div>
+                    <img src="assets/img/nmap-logo.png" alt="Nmap Logo">
+                    <span>Nmap</span>
+                </div>
+                <div>
+                    <img src="assets/img/burp-suite-logo.png" alt="Burp Suite Logo">
+                    <span>Burp Suite</span>
+                </div>
+            </div>
+
+            <!-- Networking & Systems -->
+            <div class="skills-category">
+                <h3><i class="fas fa-network-wired"></i> Networking & Systems</h3>
+                <div>
+                    <img src="assets/img/vpn-logo.png" alt="VPN Logo">
+                    <span>VPNs</span>
+                </div>
+                <div>
+                    <img src="assets/img/firewall-logo.png" alt="Firewall Logo">
+                    <span>Firewalls</span>
+                </div>
+                <div>
+                    <img src="assets/img/ccna-logo.png" alt="CCNA Logo">
+                    <span>CCNA</span>
+                </div>
+                <div>
+                    <img src="assets/img/ids-logo.png" alt="IDS Logo">
+                    <span>IDS/IPS</span>
+                </div>
+            </div>
+
+            <!-- Version Control & Collaboration -->
+            <div class="skills-category">
+                <h3><i class="fas fa-code-branch"></i> Version Control & Collaboration</h3>
+                <div>
+                    <img src="assets/img/git-logo.png" alt="Git Logo">
+                    <span>Git</span>
+                </div>
+                <div>
+                    <img src="assets/img/github-logo.png" alt="GitHub Logo">
+                    <span>GitHub</span>
+                </div>
+                <div>
+                    <img src="assets/img/gitlab-logo.png" alt="GitLab Logo">
+                    <span>GitLab</span>
+                </div>
+                <div>
+                    <img src="assets/img/bitbucket-logo.png" alt="Bitbucket Logo">
+                    <span>Bitbucket</span>
                 </div>
             </div>
 
@@ -354,8 +379,6 @@ In addition, I have worked on optimizing operational efficiency by integrating A
 </body>
 </html>
 
-
-    </section><!-- /Skills Section -->
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
@@ -376,7 +399,7 @@ In addition, I have worked on optimizing operational efficiency by integrating A
               <h4>Anil Kumar Valusa</h4>
               <p><em>Cybersecurity Analyst with a Master of Science in Cybersecurity, specializing in cyber threat analysis, malware detection, and AI/ML-based security solutions. Skilled in using TensorFlow, Keras, Python, Flask, Django, and cloud platforms like AWS and GCP to enhance security infrastructures. Focused on leveraging cutting-edge technologies to improve organizational security and ensure digital environments remain protected.</em></p>
               <ul>
-                <li>Clark Terrace,Long Beach, CA</li>
+                <li>California</li>
                 <li>(562) 284-9461</li>
                 <li>anilvalusa@gmail.com</li>
               </ul>
@@ -706,77 +729,79 @@ In addition, I have worked on optimizing operational efficiency by integrating A
 
   
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+   <!-- Contact Section -->
+<section id="contact" class="contact section" style="padding: 60px 20px; background-color: #f9f9f9;">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up" style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-weight: 600; font-size: 2.5rem; color: #333;">Contact</h2>
+        <p style="color: #555;">Your needs come from something that truly matters.</p>
+    </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Your needs come from something that truly matters.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
+    <div class="container" data-aos="fade" data-aos-delay="100">
         <div class="row gy-4">
+            <!-- Contact Information -->
+            <div class="col-lg-4 d-flex flex-column align-items-start">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200" style="margin-bottom: 30px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <i class="bi bi-geo-alt" style="font-size: 2rem; color: #4caf50; flex-shrink: 0; margin-right: 15px;"></i>
+                    <div>
+                        <h3 style="font-weight: 600; color: #333;">Address</h3>
+                        <p style="color: #555;">California</p>
+                    </div>
+                </div><!-- End Info Item -->
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>California</p>
-              </div>
-            </div><!-- End Info Item -->
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 30px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <i class="bi bi-telephone" style="font-size: 2rem; color: #4caf50; flex-shrink: 0; margin-right: 15px;"></i>
+                    <div>
+                        <h3 style="font-weight: 600; color: #333;">Call Us</h3>
+                        <p style="color: #555;">+1 562-284-9461</p>
+                    </div>
+                </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 562-284-9461</p>
-              </div>
-            </div><!-- End Info Item -->
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400" style="margin-bottom: 30px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <i class="bi bi-envelope" style="font-size: 2rem; color: #4caf50; flex-shrink: 0; margin-right: 15px;"></i>
+                    <div>
+                        <h3 style="font-weight: 600; color: #333;">Email Us</h3>
+                        <p style="color: #555;">anilvalusa@gmail.com</p>
+                    </div>
+                </div><!-- End Info Item -->
+            </div>
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>anilvalusa@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
+            <!-- Contact Form -->
+            <div class="col-lg-8">
+                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200" style="background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="" style="padding: 15px; font-size: 1rem; border-radius: 8px;">
+                        </div>
 
-          </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="" style="padding: 15px; font-size: 1rem; border-radius: 8px;">
+                        </div>
 
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="" style="padding: 15px; font-size: 1rem; border-radius: 8px;">
+                        </div>
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required="" style="padding: 15px; font-size: 1rem; border-radius: 8px;"></textarea>
+                        </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
+                        <div class="col-md-12 text-center">
+                            <div class="loading" style="display: none;">Loading</div>
+                            <div class="error-message" style="color: red; display: none;"></div>
+                            <div class="sent-message" style="color: green; display: none;">Your message has been sent. Thank you!</div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
+                            <button type="submit" style="padding: 10px 20px; font-size: 1.1rem; border-radius: 8px; background-color: #4caf50; color: #fff; border: none; cursor: pointer; transition: 0.3s;">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div><!-- End Contact Form -->
+        </div>
+    </div>
+</section><!-- End Contact Section -->
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
 
         </div>
 
